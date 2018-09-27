@@ -1,0 +1,59 @@
+body{
+  font-family: 'raleway', sans-serif;
+}
+
+nav{
+  background-color: black;
+}
+
+.logo{
+  width:200px
+}
+
+.navbar{
+  list-style-type:none;
+  text-decoration: none;
+  margin-left:40px
+  padding:0;
+  overflow:hidden;
+  display:inline-block;
+  text-align: center;
+}
+
+.navbutton{
+  float:left;
+  padding: 0 14px 0 14px;
+
+}
+ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+#headshot{
+  border-radius: 50%;
+  width: 250px;
+}
+
+.main-content{
+  margin: 2% 5% 0 5%;
+}
+
+h4, h1{
+  color: #E13A63;
+}
+
+.screenshot{
+  width: 40%;
+  margin: 5% 30%;
+}
+
+.boxes{
+  display: inline-block;
+  float: left;
+  border: 2px solid #E13A63;
+  width: 30%;
+  margin-left: 2%;
+  text-align: center;
+  margin-bottom: 10%;
+}

@@ -1,0 +1,121 @@
+body{
+  font-family: 'raleway', sans-serif;
+}
+
+nav{
+  background-color: black;
+}
+
+.logo{
+  width:200px
+}
+
+.navbar{
+  list-style-type:none;
+  text-decoration: none;
+  margin-left:40px
+  padding:0;
+  overflow:hidden;
+  display:inline-block;
+  text-align: center;
+}
+
+.navbutton{
+  float:left;
+  padding: 0 14px 0 14px;
+
+}
+ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+.headshot{
+  border-radius: 50%;
+  width:100%;
+  border: 2px solid #E13A63;
+  margin: 15% 0 0 18%;
+}
+
+.content{
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+h4, h1{
+  color: #E13A63;
+}
+
+.top{
+  border: 2px solid #E13A63;
+  margin: 1% 4% 0 0;
+  display: inline-block;
+}
+
+.right{
+  display: inline-block;
+  float:right;
+  width: 65%;
+  margin: 2%;
+}
+
+.face{
+  width:20%;
+  display: inline-block;
+  float: left;
+}
+
+.middleleft {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.middleright{
+  display:inline-block;
+  float: right;
+  width: 40%;
+  margin-right: 8%;
+  margin-left: 2%;
+}
+
+#bottom{
+  display: block;
+  float: right;
+  width:100%;
+  border:2px solid #E13A63;
+  margin:2%;
+  text-align: center;
+}
+p, li, h6{
+  font-size: 100%;
+}
+h5{
+  font-size: 110%;
+}
+
+@media only screen and (max-width:900px){
+  .face, .top, .headshot, .right, .middleleft, .middleright, #bottom{
+    float: none;
+    display: block;
+    text-align:center;
+    margin:auto;
+  }
+
+  .face{
+    margin-top: 3%;
+    width:50%;
+  }
+  .top, .right, .middleleft, .middleright, #bottom{
+    width:100%;
+  }
+  .middleleft, .middleright, #bottom{
+    border:2px solid #E13A63;
+    margin-top: 2%;
+  }
+  .content{
+    margin-right:4%;
+  }
+}

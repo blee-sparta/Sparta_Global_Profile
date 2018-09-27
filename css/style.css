@@ -69,14 +69,16 @@ h4, h1{
   display: inline-block;
   float: left;
   width: 40%;
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-right: 2%;
 }
 
 .middleright{
   display:inline-block;
   float: right;
   width: 40%;
-  margin-right: 10%;
+  margin-right: 8%;
+  margin-left: 2%;
 }
 
 #bottom{
@@ -86,6 +88,12 @@ h4, h1{
   border:2px solid #E13A63;
   margin:2%;
   text-align: center;
+}
+p, li, h6{
+  font-size: 100%;
+}
+h5{
+  font-size: 110%;
 }
 
 @media only screen and (max-width:900px){
